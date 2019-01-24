@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"/>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+    <!------ Include the above in your HEAD tag ---------->
+    
+    <!-- Head tags to include FontAwesome -->
+    <!--Haettu karusellin koodit sivulta: https://bootsnipp.com/snippets/featured/responsive-quote-carousel -->
+    <head>
+        <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8"/>
+        <script type="text/javascript" src="script.js"></script>
+        </head>
+    <body>
+    <div class="container">
+        <div class="row">
+            <div class='col-md-10 text-center'>
+            </div>
+            <div class="paakuva">
+                    <figure>
+                        <img id="jotain"class= "col-md-offset-2 col-md-10 text-center" src= "images/varikorjattu_ryhma.jpg"  style="width: 550px;">
+                    </figure>
+                </div>
+           
+            <br/>
+
+        </div>
+        <div>
+                <h2>Hello world!</h2>
+                <p>Olemme juuri aloittaneet  <a href="https://www.academy.fi" target="_blank">Academyn</a> JavaScript opintomme.</p>
+                <p><strong>Mitä on Accelerated Learning?</strong></p>
+                <p>Accelerated Learning on nopea tie uuteen ammattiin aktiivisille ja kunnianhimoisille ihmisille, joilla on kyky omaksua uutta tietoa tehokkaasti. Koulutusmalli keskittyy nopeatempoiseen käytännön oppimiseen aktiivisen tiimityöskentelyn ja jatkuvan palautteenannon kautta. Koulutus perustuu konkreettisiin tehtäviin, jotka ovat relevantteja tulevissa tehtävissä. Tämä tekee oppimisprosessista erittäin tehokkaan ja konsulttimme pystyvät työskentelemään junior IT-konsultin tehtävissä heti ensimmäisestä päivästä lähtien.</p>     
+                <p>Alla lyhyt esittely ryhmämme jäsenistä:</p>
+            </div>
+        <div class='row'>
+        <div class='col-md-offset-1 col-md-8'>
+            <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+            <!-- Bottom Carousel Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#quote-carousel" data-slide-to="1"></li>
+                <li data-target="#quote-carousel" data-slide-to="2"></li>
+                <li data-target="#quote-carousel" data-slide-to="3"></li>
+                <li data-target="#quote-carousel" data-slide-to="4"></li>
+            </ol>
+            
+            <!-- Carousel Slides / Quotes -->
+            <div class="carousel-inner">
+            
+                <!-- Satu -->
+                <div class="item active">
+                <blockquote>
+                    <div class="row">
+                    <div class="col-sm-3 text-center">
+                        <img class="img-circle" src="images/satu.jpg" style="width: 100px;height:100px;">
+                    </div>
+                    <div class="col-sm-9">
+                        <p>Salainen taitoni on porkkanakakun teko. Haastavinta ennakko-opinnoissa oli ymmärtää miten callbackit toimii.</p>
+                        <small>Satu Immonen</small>
+                    </div>
+                    </div>
+                </blockquote>
+                </div>
+                <!-- Sanna -->
+                <div class="item">
+                <blockquote>
+                    <div class="row">
+                    <div class="col-sm-3 text-center">
+                        <img class="img-circle" src="images/sanna.jpg" style="width: 100px;height:100px;">
+                    </div>
+                    <div class="col-sm-9">
+                        <p>Innokkaasti uudelle uralle lähtenyt viestijä, tuleva Javascript-velho. Haasteita aiheuttaa vielä event handlerit ja callbackit. Salainen aseeni on tarkka oikolukeminen!</p>
+                        <small>Sanna Launonen</small>
+                    </div>
+                    </div>
+                </blockquote>
+                </div>
+                <!-- Laura -->
+                <div class="item">
+                <blockquote>
+                    <div class="row">
+                    <div class="col-sm-3 text-center">
+                        <img class="img-circle" src="images/Laura_pienennetty.jpg" style="width: 100px;height:100px;">
+                    </div>
+                    <div class="col-sm-9">
+                        <p>Haasteena oli, että sitä mukaa, kun esiopinnoissa oppi uuden moduulin asiat, edelliset opitut asiat alkoivat haihtua mielestä - uutta tietoa tuli niin paljon. Salainen kykyni on löytää halpoja lentoja hauskoihin kohteisiin.</p>
+                        <small>Laura Muttilainen</small>
+                    </div>
+                    </div>
+                </blockquote>
+                </div>
+                <!--Riina-->
+                <div class="item">
+                <blockquote>
+                    <div class="row">
+                    <div class="col-sm-3 text-center">
+                        <img class="img-circle" src="images/image.png" style="width: 100px;height:100px;">
+                    </div>
+                    <div class="col-sm-9">
+                        <p>Salainen taitoni: Google. Haastavinta ennakko-opinnoissa oli ajan puute, Node.js.</p>
+                        <small>Riina Moilanen</small>
+                    </div>
+                    </div>
+                </blockquote>
+                </div>
+                <!--Jukka-->
+                <div class="item">
+                <blockquote>
+                    <div class="row">
+                    <div class="col-sm-3 text-center">
+                        <img class="img-circle" src="images/IMG_20190107_150441.jpg" style="width: 100px;height:100px;">
+                    </div>
+                    <div class="col-sm-9">
+                        <p>IT-osaamista viime vuosituhannelta ja kaikki ne taidot ovat julkisia. :D Vaikeinta oli malttaa nukkua.</p>
+                        <small>Jukka Alkunen</small>
+                    </div>
+                    </div>
+                </blockquote>
+                </div>
+            </div>
+            
+            <!-- Carousel Buttons Next/Prev -->
+            <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+            <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+            </div>                          
+        </div>
+        </div>
+    </div>        
+    </body>
