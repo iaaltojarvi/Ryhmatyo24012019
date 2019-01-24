@@ -1,4 +1,3 @@
-
 const listDiv = document.querySelector('.list');
 const descriptionInput = document.querySelector('input.description');
 const descriptionP = document.querySelector('p.description');
@@ -8,7 +7,6 @@ const addItemInput = document.querySelector('input.addItemInput');
 const addItemButton = document.querySelector('button.addItemButton');
 const removeItemButton = document.querySelector('button.removeItemButton');
 const lis = listUl.children;
-
 
 descriptionButton.addEventListener('click', () => {
   descriptionP.innerHTML = descriptionInput.value + ':';
@@ -42,4 +40,12 @@ function newItem() {
   function removeItem(e) {
     e.target.parentElement.removeChild(e.target);
   }
+// When the DOM is ready, run this function
+$(document).ready(function() {
+    //Set the carousel options
+    $('#quote-carousel').carousel({
+      pause: true,
+      interval: 10000,
+    });
+  });
 
